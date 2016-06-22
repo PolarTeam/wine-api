@@ -6,4 +6,4 @@ RUN npm install
 ADD . /code
 
 EXPOSE 3001
-CMD ["/sails/run.sh"]
+CMD ["/code/run.sh"]

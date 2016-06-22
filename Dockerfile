@@ -5,5 +5,5 @@ WORKDIR /code
 RUN npm install
 ADD . /code
 
-EXPOSE 1337
+EXPOSE 3001
 CMD ["/sails/run.sh"]
